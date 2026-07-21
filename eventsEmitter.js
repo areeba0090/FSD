@@ -34,7 +34,6 @@ console.log();
 task.emit("exit","Manager");  //won't effect 
 console.log();
 task.emit("exit","Employee"); //execute only once
-
-// const shuttingDown=(name)=>
-
-// task.emit('greet','Manager');
+task.getMaxListeners();
+console.log("total listener", task.listenerCount("greet"));
+task.removeAllListeners("greet");
