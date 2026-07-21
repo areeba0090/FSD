@@ -21,5 +21,8 @@ const sum = (a, b) => {         // explicit return
 
 const findSum = (a,b) => a+b;  // implicit return
 
+sayHello("Areeba Alam");
+sayHi("Mohini");
 console.log(sum(5, 10));
 console.log(findSum(5, 15));
+
