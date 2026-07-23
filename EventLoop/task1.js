@@ -22,4 +22,7 @@ function main()
     console.log("main running");
     console.log("main ends");
 }
-main();
+main(); //synchronous call 
+//javascript is synchronous and single threaded(limitation:can do only one thing at a time)
+//to help with this limitation we use asynchronous we use eventloop to manage the call stack
+// asynchronous call using timers : 1. Set timeout 2. Set immediate 3. Process.nextTick 4. SetInterval
